@@ -1,0 +1,15 @@
+{
+  "name": "portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn --cwd svelte dev"
+  },
+  "author": "Worakrit Soontornthamniti",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.12.14"
+  }
+}

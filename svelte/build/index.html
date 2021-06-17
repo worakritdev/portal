@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+
+    
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-e9832873.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-1287f461.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-8d957a0c.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-20d6be86.js">
+		<link rel="stylesheet" href="/./_app/assets/start-0826e215.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-c8a3d8b6.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-e9832873.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-8d957a0c.js"),
+						import("/./_app/pages/index.svelte-20d6be86.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+  </head>
+  <body>
+    <div id="svelte">
+
+
+<main><nav><div class="shadow-md"><a href="about">about</a></div></nav>
+    <h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p></main>
+
+
+
+	
+</div>
+  </body>
+</html>
